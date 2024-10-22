@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#214;DEVLER"/>
+        <attribute name="authors" value="Bilgisayar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 10:48:45 &#214;S"/>
+        <attribute name="created" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTswNzo1ODowMCDDllM7MzUwNA=="/>
+        <attribute name="edited" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTsxMDo0ODo0NSDDllM7MjszNjE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, GN" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vize notunuz giriniz.&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Final notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="GN" expression="x*0.4+y*0.6"/>
+            <if expression="60&lt;=ortalama">
+                <then>
+                    <output expression="&quot;ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

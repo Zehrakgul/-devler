@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#214;DEVLER 3"/>
+        <attribute name="authors" value="Bilgisayar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 10:54:37 &#214;S"/>
+        <attribute name="created" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTsxMDo0OToxNSDDllM7MzUwNA=="/>
+        <attribute name="edited" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTsxMDo1NDozNyDDllM7MTszNjEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kalem, defter, silgi, kalemf, silgif, defterf, toplam" type="Integer" array="False" size=""/>
+            <assign variable="kalemf" expression="15"/>
+            <assign variable="silgif" expression="10"/>
+            <assign variable="defterf" expression="30"/>
+            <output expression="&quot;kalem say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="kalem"/>
+            <output expression="&quot;silgi say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="silgi"/>
+            <output expression="&quot;defter say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="defter"/>
+            <assign variable="Toplam" expression="(silgif*silgi)+(kalemf*kalem)+(defterf*defter)"/>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

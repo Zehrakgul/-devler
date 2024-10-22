@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#214;DEVLER 2"/>
+        <attribute name="authors" value="Bilgisayar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 10:17:00 &#214;S"/>
+        <attribute name="created" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTsxMDowNToxMCDDllM7MzQ5MQ=="/>
+        <attribute name="edited" value="QmlsZ2lzYXlhcjtERVNLVE9QLU1BSkk5SDg7MjAyNC0xMC0yMTsxMDoxNzowMCDDllM7MTszNjAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <assign variable="Toplam" expression="0"/>
+            <declare name="adet" type="Integer" array="False" size=""/>
+            <assign variable="adet" expression="0"/>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <input variable="say&#305;"/>
+            <while expression="say&#305; !=0">
+                <assign variable="Toplam" expression="Toplam + say&#305;"/>
+                <assign variable="Adet" expression="Adet + 1"/>
+                <input variable="say&#305;"/>
+            </while>
+            <declare name="Ortalama" type="Integer" array="False" size=""/>
+            <assign variable="Ortalama" expression="Toplam/Adet"/>
+            <output expression="Ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
